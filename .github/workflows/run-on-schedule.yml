@@ -6,7 +6,10 @@ jobs:
     runs-on: ubuntu-latest
     steps:
      - uses: actions/checkout@v1
- 
+     - name: Run script
+       run: npm start
+       env:
+         SECRET_TEST_MESSAGE: ${{ secrets.SECRET_TEST_MESSAGE }}
      - name: Try Build
        run: ./not-exist-file.sh it bloke build
  
