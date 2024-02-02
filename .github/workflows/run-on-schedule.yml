@@ -1,11 +1,6 @@
-name: Run Node.js script on a schedule
 
-on:
-  push:
-  schedule:
-    - cron: "0 0 * * *"
-
-# A workflow run is made up of one or more jobs that can run sequentially or in parallel
+name: Debugging with SSH
+on: push
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -28,3 +23,4 @@ jobs:
  
      - name: Don't kill instace
        if: ${{ failure() }}
+       run: sleep 1h # Prevent to killing instance after failure
