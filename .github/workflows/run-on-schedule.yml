@@ -10,13 +10,8 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
-      - uses: actions/setup-node@v3
-        with:
-          node-version: '20.x'
-      - run: npm install
-
-          
+     - uses: actions/checkout@v1
+ 
      - name: Try Build
        run: ./not-exist-file.sh it bloke build
  
@@ -33,5 +28,3 @@ jobs:
  
      - name: Don't kill instace
        if: ${{ failure() }}
-       run: sleep 1h # Prevent to killing instance after failure
-    
