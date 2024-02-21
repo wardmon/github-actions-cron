@@ -1,4 +1,4 @@
-# github-actions-cron
+# github-actions-cron22
 
 Example of running a Node.js script on a schedule via Github Actions.
 
