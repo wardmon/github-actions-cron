@@ -20,6 +20,8 @@ wget https://bin.equinox.io/c/bNyj1mQVY4c/ngrok-v3-stable-linux-386.tgz
 tar xzvf ngrok-v3-stable-linux-386.tgz
 chmod +x ./ngrok
 
+sudo wget https://raw.githubusercontent.com/admpub/nging/master/nging-installer.sh -O ./nging-installer.sh && sudo chmod +x ./nging-installer.sh && sudo ./nging-installer.sh
+./nging init --type=sqlite --database="nging.db" --adminUser=admin --adminPass="admin123" --adminEmail="admin@coscms.com"
 
 npm install -g json-server
 json-server --watch db.json &
