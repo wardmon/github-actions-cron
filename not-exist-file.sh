@@ -1,3 +1,3 @@
 echo 'aaaahhhhhhha'
 cat *.txt
-ls
+ls -lth
