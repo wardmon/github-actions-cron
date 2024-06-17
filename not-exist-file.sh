@@ -2,7 +2,7 @@
 ps -ef | grep server
 #nohup python3 -m http.server &
 echo 'http://45.32.200.249:8000'
-echo 'http://45.32.200.249:8060/ddd?url=ll  https://informedainews.com/'
+echo 'http://45.32.200.249:8060/ddd?url=ll  https://informedainews.com/ https://github.dev/wardmon/github-actions-cron'
 cat r.sh
 date
 echo 'aaaahhhhhhha'
