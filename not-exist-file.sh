@@ -1,4 +1,4 @@
-ps -ef | grep http.server | awk '{print $0}'
+ps -ef | grep http.server | awk '{print $2}'
 cat r.sh
 date
 echo 'aaaahhhhhhha'
