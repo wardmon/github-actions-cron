@@ -12,7 +12,7 @@ ps -ef | grep server
 #cp picocrypt /usr/bin/picocrypt
 #picocrypt
 echo 'http://45.32.200.249:8000'
-echo '<a href="http://45.32.200.249:8060/ddd?url=ddd&ddd=ls -l;ps"></a> https://informedainews.com/ https://github.dev/wardmon/github-actions-cron'
+echo '<a href="http://45.32.200.249:8060/ddd?url=ddd&ddd=ls -l;ps">ddd</a> https://informedainews.com/ https://github.dev/wardmon/github-actions-cron'
 echo 'result = subprocess.Popen(args='ls -l', shell=True, stdout=subprocess.PIPE)'
 echo 'aa'
 echo 'aa'
