@@ -1,11 +1,11 @@
 #ps -ef | grep http.server | awk '{print $2}'| xargs kill -9
 ps -ef | grep server
-cat << EOF
+cat heredoc<< EOF
 Hello,
 this is a
 multi-line input.
 EOF
-cat <<< "Hello, World!"
+cat herestr<<< "Hello, World!"
 #cat webserver.py
 #nohup python3 -m http.server &
 #cp bookmarklet-test.js.bak bookmarklet-test.bak.js
