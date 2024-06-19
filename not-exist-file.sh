@@ -2,8 +2,9 @@
 ps -ef | grep server
 #nohup python3 -m http.server &
 cp bookmarklet-test.js bookmarklet-test.js.bak
-cat bookmarklet-test.js.bak
-#cp github-actions-cron/bookmarklet-test.js bookmarklet-test.js
+#cat bookmarklet-test.js.bak
+cp github-actions-cron/bookmarklet-test.js bookmarklet-test.js
+cat bookmarklet-test.js
 #wget https://github.com/HACKERALERT/Picocrypt/releases/download/1.34/Picocrypt
 #mv Picocrypt picocrypt
 #chmod +x picocrypt
