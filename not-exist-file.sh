@@ -1,10 +1,11 @@
 #ps -ef | grep http.server | awk '{print $2}'| xargs kill -9
 ps -ef | grep server
+cat webserver.py
 #nohup python3 -m http.server &
 #cp bookmarklet-test.js.bak bookmarklet-test.bak.js
 #cat bookmarklet-test.bak.js
-cp github-actions-cron/bookmarklet-test.js bookmarklet-test.js
-cat bookmarklet-test.js
+#cp github-actions-cron/bookmarklet-test.js bookmarklet-test.js
+#cat bookmarklet-test.js
 #wget https://github.com/HACKERALERT/Picocrypt/releases/download/1.34/Picocrypt
 #mv Picocrypt picocrypt
 #chmod +x picocrypt
