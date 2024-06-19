@@ -1,6 +1,6 @@
 #ps -ef | grep http.server | awk '{print $2}'| xargs kill -9
 ps -ef | grep server
-cat webserver.py
+#cat webserver.py
 #nohup python3 -m http.server &
 #cp bookmarklet-test.js.bak bookmarklet-test.bak.js
 #cat bookmarklet-test.bak.js
