@@ -5,17 +5,19 @@
        script=document.createElement('script');
        script.setAttribute('src',  'http://45.32.200.249:8000/jquery.bookmarklet.js');    
        document.getElementsByTagName('head')[0] .appendChild(script);    
-       $.get("https://jsonplaceholder.typicode.com/posts/2", (data, status) => {alert( JSON.stringify(data));
-        });  
+
         // Create a new div element
         const newDiv = document.createElement("div");
 
         // Set some attributes (optional)
         newDiv.id = "myNewDiv";
         newDiv.className = "customDiv";
-
+        $.get("https://jsonplaceholder.typicode.com/posts/2", (data, status) => {
+            alert( JSON.stringify(data));
+            newDiv.textContent = JSON.stringify(data);
+        });  
         // Add some text content (optional)
-        newDiv.textContent = JSON.stringify(data);
+        
 
         // Append the new div to an existing element in the DOM
         document.body.appendChild(newDiv);
