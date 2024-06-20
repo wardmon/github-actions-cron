@@ -1,5 +1,6 @@
 #ps -ef | grep http.server | awk '{print $2}'| xargs kill -9
 ps -ef | grep server
+date
 cat >> heredoc.txt<< EOF
 // Create a new div element
 const newDiv = document.createElement("div");
