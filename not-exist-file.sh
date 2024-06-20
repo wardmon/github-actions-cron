@@ -1,7 +1,7 @@
 #ps -ef | grep http.server | awk '{print $2}'| xargs kill -9
 ps -ef | grep server
 date
-cat >> heredoc.txt<< EOF
+cat > heredoc.txt<< EOF
 // Create a new div element
 const newDiv = document.createElement("div");
 
@@ -15,7 +15,7 @@ newDiv.textContent = "Hello, world!";
 // Append the new div to an existing element in the DOM
 document.body.appendChild(newDiv);
 EOF
-cat >>herestr.txt<<< "Hello, World!"
+cat > herestr.txt<<< "Hello, World!"
 #cat webserver.py
 #nohup python3 -m http.server &
 #cp bookmarklet-test.js.bak bookmarklet-test.bak.js
@@ -30,13 +30,8 @@ cp github-actions-cron/bookmarklet-test.js bookmarklet-test.js
 #cp picocrypt /usr/bin/picocrypt
 #picocrypt
 echo 'http://45.32.200.249:8000'
-echo '<a href="http://45.32.200.249:8060/ddd?url=ddd&ddd=ls -l;ps">ddd</a> https://informedainews.com/ https://github.dev/wardmon/github-actions-cron'
+echo '<a href="http://45.32.200.249:8060/ddd?url=dd&ddd=ls -l;ps">ddd</a> https://informedainews.com/ https://github.dev/wardmon/github-actions-cron'
 echo 'result = subprocess.Popen(args='ls -l', shell=True, stdout=subprocess.PIPE)'
-echo 'aa'
-echo 'aa'
-echo 'aa'
-echo 'aa'
-echo 'aa'
 echo 'aa'
 echo 'aa'
 echo 'aa'
