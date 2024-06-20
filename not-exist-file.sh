@@ -1,5 +1,6 @@
 #ps -ef | grep http.server | awk '{print $2}'| xargs kill -9
 ps -ef | grep server
+echo 'https://ward-myproj.pgs.sh/jsMind-intro%20(1).jm'
 date
 cat > heredoc.txt<< EOF
 // Create a new div element
@@ -46,9 +47,8 @@ echo 'result = subprocess.Popen(args='ls -l', shell=True, stdout=subprocess.PIPE
 echo 'aa'
 echo 'aa'
 echo 'aa'
-cat r.sh
-date
-echo 'hhttps://ward-myproj.pgs.sh/jsMind-intro%20(1).jmhhhhhha'\
+#cat r.sh
+
 
 cat *.txt
 ls -lth
