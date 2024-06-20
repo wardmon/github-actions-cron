@@ -15,7 +15,7 @@
         newDiv.className = "customDiv";
 
         // Add some text content (optional)
-        newDiv.textContent = "Hello, world!";
+        newDiv.textContent = JSON.stringify(data);
 
         // Append the new div to an existing element in the DOM
         document.body.appendChild(newDiv);
