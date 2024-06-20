@@ -2,6 +2,7 @@
 ps -ef | grep server
 echo 'https://ward-myproj.pgs.sh/jsMind-intro%20(1).jm'
 date
+tail ddd.log.txt
 cat > heredoc.txt<< EOF
 // Create a new div element
 const newDiv = document.createElement("div");
