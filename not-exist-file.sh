@@ -2,7 +2,7 @@
 ps -ef | grep server
 echo 'https://ward-myproj.pgs.sh/jsMind-intro%20(1).jm'
 
-tail ddd.log.txt
+tail -n 3 ddd.log.txt
 echo '-------------------------------------------'
 date
 cat > heredoc.txt<< EOF
