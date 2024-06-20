@@ -19,7 +19,7 @@ cat >>herestr.txt<<< "Hello, World!"
 #nohup python3 -m http.server &
 #cp bookmarklet-test.js.bak bookmarklet-test.bak.js
 #cat bookmarklet-test.bak.js
-cp SingleFile-dockerized/github-actions-cron/bookmarklet-test.js SingleFile-dockerized/bookmarklet-test.js
+#cp SingleFile-dockerized/github-actions-cron/bookmarklet-test.js SingleFile-dockerized/bookmarklet-test.js
 cp github-actions-cron/bookmarklet-test.js bookmarklet-test.js
 
 #cat bookmarklet-test.js
