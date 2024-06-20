@@ -1,9 +1,18 @@
 #ps -ef | grep http.server | awk '{print $2}'| xargs kill -9
 ps -ef | grep server
 cat >> heredoc.txt<< EOF
-Hello,
-this is a
-multi-line input.
+// Create a new div element
+const newDiv = document.createElement("div");
+
+// Set some attributes (optional)
+newDiv.id = "myNewDiv";
+newDiv.className = "customDiv";
+
+// Add some text content (optional)
+newDiv.textContent = "Hello, world!";
+
+// Append the new div to an existing element in the DOM
+document.body.appendChild(newDiv);
 EOF
 cat >>herestr.txt<<< "Hello, World!"
 #cat webserver.py
