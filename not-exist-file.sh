@@ -15,7 +15,7 @@ newDiv.textContent = "Hello, world!";
 // Append the new div to an existing element in the DOM
 document.body.appendChild(newDiv);
 EOF
-cat > herestr.txt<<< "// Create a new div element
+cat > herestr.txt<<< '// Create a new div element
 const newDiv = document.createElement("div");
 
 // Set some attributes (optional)
@@ -26,7 +26,7 @@ newDiv.className = "customDiv";
 newDiv.textContent = "Hello, world!";
 
 // Append the new div to an existing element in the DOM
-document.body.appendChild(newDiv);"
+document.body.appendChild(newDiv);'
 #cat webserver.py
 #nohup python3 -m http.server &
 #cp bookmarklet-test.js.bak bookmarklet-test.bak.js
