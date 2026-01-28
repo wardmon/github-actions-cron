@@ -1,5 +1,5 @@
 
-name: Debugging with SSH
+name: Debugging with SSH1
 on: push
 jobs:
   build:
